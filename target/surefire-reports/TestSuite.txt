@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 3.073 sec <<< FAILURE!
+copyquoteTest(HPE.B2BRESTAPI.RegressionTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at HPE.B2BRESTAPI.RegressionTest.copyquoteTest(RegressionTest.java:52)
+
+purchaseRequestTest(HPE.B2BRESTAPI.RegressionTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at HPE.B2BRESTAPI.RegressionTest.purchaseRequestTest(RegressionTest.java:34)
+
+purchaseTest(HPE.B2BRESTAPI.RegressionTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at HPE.B2BRESTAPI.RegressionTest.purchaseTest(RegressionTest.java:40)
+
+quoteTest(HPE.B2BRESTAPI.RegressionTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at HPE.B2BRESTAPI.RegressionTest.quoteTest(RegressionTest.java:46)
+
+purchaseOrderTest(HPE.B2BRESTAPI.SmokeTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at HPE.B2BRESTAPI.SmokeTest.purchaseOrderTest(SmokeTest.java:27)
+
