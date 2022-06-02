@@ -11,11 +11,6 @@
           <include name="purchaseTest"/>
         </methods>
       </class> <!-- HPE.B2BRESTAPI.RegressionTest -->
-      <class name="HPE.B2BRESTAPI.SmokeTest">
-        <methods>
-          <include name="purchaseOrderTest"/>
-        </methods>
-      </class> <!-- HPE.B2BRESTAPI.SmokeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

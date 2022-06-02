@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="5" ignored="0" total="12" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="289" started-at="2022-06-02T07:23:12Z" finished-at="2022-06-02T07:23:13Z">
+  <suite name="Suite" duration-ms="247" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:03Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="289" started-at="2022-06-02T07:23:12Z" finished-at="2022-06-02T07:23:13Z">
+    <test name="Test" duration-ms="247" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:03Z">
       <class name="HPE.B2BRESTAPI.SmokeTest">
-        <test-method status="PASS" signature="HomeTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@511baa65]" name="HomeTest" duration-ms="0" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="HomeTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@7f63425a]" name="HomeTest" duration-ms="42" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@511baa65]" name="loginTest" duration-ms="1" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@7f63425a]" name="loginTest" duration-ms="1" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="myAccountTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@511baa65]" name="myAccountTest" duration-ms="1" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="myAccountTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@7f63425a]" name="myAccountTest" duration-ms="3" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAccountTest -->
-        <test-method status="FAIL" signature="purchaseOrderTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@511baa65]" name="purchaseOrderTest" duration-ms="1" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="FAIL" signature="purchaseOrderTest()[pri:0, instance:HPE.B2BRESTAPI.SmokeTest@7f63425a]" name="purchaseOrderTest" duration-ms="3" started-at="2022-06-02T07:59:02Z" finished-at="2022-06-02T07:59:02Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -53,19 +53,12 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -74,11 +67,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
         </test-method> <!-- purchaseOrderTest -->
       </class> <!-- HPE.B2BRESTAPI.SmokeTest -->
       <class name="HPE.B2BRESTAPI.RegressionTest">
-        <test-method status="PASS" signature="HomeTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="HomeTest" duration-ms="64" started-at="2022-06-02T07:23:12Z" finished-at="2022-06-02T07:23:12Z">
+        <test-method status="PASS" signature="HomeTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="HomeTest" duration-ms="1" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomeTest -->
-        <test-method status="FAIL" signature="copyquoteTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="copyquoteTest" duration-ms="3" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="FAIL" signature="copyquoteTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="copyquoteTest" duration-ms="1" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -112,38 +105,31 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- copyquoteTest -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="loginTest" duration-ms="0" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="loginTest" duration-ms="0" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="myAccountTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="myAccountTest" duration-ms="0" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="myAccountTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="myAccountTest" duration-ms="0" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myAccountTest -->
-        <test-method status="PASS" signature="purchaseOrderTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="purchaseOrderTest" duration-ms="0" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="PASS" signature="purchaseOrderTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="purchaseOrderTest" duration-ms="0" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseOrderTest -->
-        <test-method status="FAIL" signature="purchaseRequestTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="purchaseRequestTest" duration-ms="0" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="FAIL" signature="purchaseRequestTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="purchaseRequestTest" duration-ms="1" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -177,26 +163,19 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseRequestTest -->
-        <test-method status="FAIL" signature="purchaseTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="purchaseTest" duration-ms="1" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="FAIL" signature="purchaseTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="purchaseTest" duration-ms="1" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -230,26 +209,19 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseTest -->
-        <test-method status="FAIL" signature="quoteTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@39ba5a14]" name="quoteTest" duration-ms="1" started-at="2022-06-02T07:23:13Z" finished-at="2022-06-02T07:23:13Z">
+        <test-method status="FAIL" signature="quoteTest()[pri:0, instance:HPE.B2BRESTAPI.RegressionTest@36d64342]" name="quoteTest" duration-ms="1" started-at="2022-06-02T07:59:03Z" finished-at="2022-06-02T07:59:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -283,19 +255,12 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
@@ -303,6 +268,6 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           </reporter-output>
         </test-method> <!-- quoteTest -->
       </class> <!-- HPE.B2BRESTAPI.RegressionTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
